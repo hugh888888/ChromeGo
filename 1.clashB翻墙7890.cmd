@@ -19,7 +19,7 @@ start /wait "" "%~dp0clashB\ip_Update\ip_1.bat"
 goto startfq
 
 :startfq
-start "" "%~dp0clashB\clash-windows-386.exe"  -d .\clashB\
+start "clashB 7890" "%~dp0clashB\clash-windows-386.exe"  -d .\clashB\
 echo µÈ´ý·­Ç½Èí¼þÆô¶¯£¬ÇëÉÔºò...
 @REM IF EXIST %~dp0Browser\chrome.exe (
 @REM     start %~dp0Browser\chrome.exe --user-data-dir=%~dp0chrome-user-data --proxy-server=127.0.0.1:7890 https://www.bannedbook.org/bnews/fq/?utm_source=GoClashB

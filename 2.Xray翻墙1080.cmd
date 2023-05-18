@@ -31,7 +31,7 @@ goto startfq
 
 :startfq
 
-start "" "%~dp0Xray\xray.exe"  -c .\Xray\config.json
+start "xray 1080" "%~dp0Xray\xray.exe"  -c .\Xray\config.json
 echo µÈ´ý·­Ç½Èí¼þÆô¶¯£¬ÇëÉÔºò...
 @REM IF EXIST %~dp0Browser\chrome.exe (
 @REM     start %~dp0Browser\chrome.exe --user-data-dir=%~dp0chrome-user-data --proxy-server="socks5://127.0.0.1:1080" --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE 127.0.0.1" https://www.bannedbook.org/bnews/fq/?utm_source=chgo-Xray

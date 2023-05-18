@@ -33,7 +33,7 @@ goto startfq
 
 :startfq
  
-start "" "%~dp0hysteria\hysteria-tun-windows-6.0-386.exe" -c .\hysteria\config.json
+start "hysteria 1080" "%~dp0hysteria\hysteria-tun-windows-6.0-386.exe" -c .\hysteria\config.json
 
 echo µÈ´ý·­Ç½Èí¼þÆô¶¯£¬ÇëÉÔºò...
 @REM IF EXIST %~dp0Browser\chrome.exe (
